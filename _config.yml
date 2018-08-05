@@ -1,0 +1,15 @@
+markdown : kramdown
+
+title: "SITE"
+
+port: 3000
+
+baseurl: "/Jekyll"
+url: "https://nabileboukourray.github.io"
+
+exclude: [README.md]
+
+collections:
+  mypages:
+    output: true
+    permalink: /:collection/:path

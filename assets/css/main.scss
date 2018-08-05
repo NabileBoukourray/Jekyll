@@ -1,0 +1,25 @@
+---
+---
+
+.nav-item{
+  a{
+    color: #424242;
+  }
+  a:focus,
+  a:hover {
+    background-color: #fff;
+    color: #424242;
+    text-shadow: 1px 1px grey;
+  }
+  a.active {
+    background-color: #fff;
+    color: #424242;
+    border-bottom: 2px solid #000;
+  }
+  a.active:focus,
+  a.active:hover{
+    background-color: #fff;
+    color: #424242;
+    border-bottom: 2px solid #000;
+  }
+}
