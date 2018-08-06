@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nconsole.log(\"Hello, world!\");\n\n//# sourceURL=webpack:///./webpack/js/main.js?");
+eval("\n\nconsole.log(\"Hello site !!\");\n\n//# sourceURL=webpack:///./webpack/js/main.js?");
 
 /***/ })
 

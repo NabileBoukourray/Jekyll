@@ -16,3 +16,7 @@ collections:
 
 
 exclude: [node_modules,  webpack]
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "jekyll:dev": "jekyll build --watch",
+    "webpack:dev": "webpack --mode=development --watch",
+    "start:jekyll": "Jekyll serve --watch",
+    "start:dev": "npm run jekyll:dev | npm run webpack:dev | npm run start:jekyll",
+    "build:prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
