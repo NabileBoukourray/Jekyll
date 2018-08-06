@@ -1,0 +1,31 @@
+{
+  "name": "planets-of-the-universe",
+  "version": "1.0.0",
+  "description": "<a href=\"https://nabileboukourray.github.io/Jekyll/\">website demo </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NabileBoukourray/Jekyll.git"
+  },
+  "keywords": [],
+  "author": "Nabile Boukourray",
+  "license": "ISC",
+  "email": "nboukourray@gmail.com",
+  "bugs": {
+    "url": "https://github.com/NabileBoukourray/Jekyll/issues"
+  },
+  "homepage": "https://github.com/NabileBoukourray/Jekyll#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.5"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}

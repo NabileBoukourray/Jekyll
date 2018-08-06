@@ -13,3 +13,6 @@ collections:
   mypages:
     output: true
     permalink: /:collection/:path
+
+
+exclude: [node_modules,  webpack]
